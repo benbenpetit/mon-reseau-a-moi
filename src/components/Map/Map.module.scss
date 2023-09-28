@@ -1,0 +1,31 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.content .info {
+  height: 20px;
+}
+
+.content .map path {
+  fill: #aaa;
+  stroke: #fff;
+}
+
+.content .boundingbox rect {
+  fill: none;
+  stroke: #333;
+  stroke-dasharray: 2, 1;
+}
+
+.content .centroid {
+  display: none;
+}
+
+.content .centroid circle {
+  fill: red;
+}
+
+.red {
+  color: red;
+}
